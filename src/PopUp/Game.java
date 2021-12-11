@@ -1,4 +1,4 @@
-package Minigame;
+package PopUp;
 
 public class Game {
 
