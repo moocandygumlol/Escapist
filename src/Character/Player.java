@@ -3,11 +3,15 @@ package Character;
 public class Player {
 	
 	private String name;
+	private String rightURL;
+	private String leftURL;
 	private int stamina;
 	
 	public Player(String Name) {
 		setName(Name);
 		setStamina(100);
+		rightURL = "\\res\\Player_right.png";
+		leftURL = "\\res\\Player_left.png";
 	}
 	
 	public void interact(int point) {
@@ -34,6 +38,14 @@ public class Player {
 			stamina = 100;
 		}
 		this.stamina = stamina;
+	}
+	
+	public String getLeftURL() {
+		return leftURL;
+	}
+	
+	public String getRightURL() {
+		return rightURL;
 	}
 	
 	

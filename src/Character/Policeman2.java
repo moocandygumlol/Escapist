@@ -3,7 +3,7 @@ package Character;
 public class Policeman2 extends Unit{
 	
 	public Policeman2() {
-		super("Mahone", "");
+		super("Mahone", "\\res\\Policeman.png");
 	}
 	
 	public String getConversation() {
