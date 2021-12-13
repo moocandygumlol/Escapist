@@ -3,7 +3,7 @@ package Character;
 public class Scofield extends Unit{
 	
 	public Scofield() {
-		super("Scofield", "");
+		super("Scofield", "\\res\\Scorfield.png");
 	}
 	
 	public String getConversation() {

@@ -3,7 +3,7 @@ package Character;
 public class Beros extends Unit{
 
 	public Beros() {
-		super("Beros", "");
+		super("Beros", "\\res\\Beros.png");
 	}
 	
 	public String getConversation() {
